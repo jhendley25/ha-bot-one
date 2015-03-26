@@ -22,4 +22,5 @@ responses = [
 
 module.exports = (robot) ->
   robot.hear /beer rules/i, (msg) ->
-    msg.send responses
+    responses.each (index) ->
+      msg.send responses[index]
