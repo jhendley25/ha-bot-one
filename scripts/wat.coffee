@@ -16,5 +16,5 @@
 
 
 module.exports = (robot) ->
-  robot.hear /.*(wat|what).*/i, (msg) ->
+  robot.hear /.*(wat).*/i, (msg) ->
     msg.send "english motherfucker, do you speak it?!"
