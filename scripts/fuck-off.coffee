@@ -24,5 +24,5 @@ navySeal =
 
 module.exports = (robot) ->
   robot.respond /(fuck )(off|you)/i, (msg) ->
-    message = Math.floor(Math.random()*navySeal.length)
+    message = navySeal[Math.floor(Math.random()*navySeal.length)]
     msg.send message
