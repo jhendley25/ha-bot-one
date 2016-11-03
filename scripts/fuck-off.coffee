@@ -26,3 +26,7 @@ module.exports = (robot) ->
   robot.respond /(fuck )(off|you)/i, (msg) ->
     message = navySeal[Math.floor(Math.random()*navySeal.length)]
     msg.send message
+
+  robot.respond /(i hate you)/i, (msg) ->
+    message = "/giphy go fuck yourself"
+    msg.send message
