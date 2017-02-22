@@ -1,1 +1,1 @@
-web: bin/hubot --adapter slack --name fuckbot
+web: bin/hubot --adapter slack --name shitbot
