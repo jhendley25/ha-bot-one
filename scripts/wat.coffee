@@ -16,7 +16,7 @@
 
 
 module.exports = (robot) ->
-    robot.hear /.*(huh).*/i, (msg) ->
+  robot.hear /.*(huh).*/i, (msg) ->
     msg.send "Whaat"
 
   robot.hear /.*(Do they speak english in Whatt).*/i, (msg) ->
